@@ -7,7 +7,5 @@ public class TestNumereComplexe {
         n.setImaginar(4);
         System.out.println("Modulul numarului complex este "+n.getModul());
         System.out.println("Numarul complex este "+n.getReal()+"+"+n.getImaginar()+"i");
-        n.aduna(2,3);
-        n.afisareAdunare();
     }
 }
