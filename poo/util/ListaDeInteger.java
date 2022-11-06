@@ -2,14 +2,14 @@ package poo.util;
 
 import java.util.*;
 
-public class ListaDeInt{
+public class ListaDeInteger{
     int nr_max;
-    int[] elemente;
+    Integer[] elemente;
     int numarCurentDeElemente;
-    public ListaDeInt(int nr_max){
+    public ListaDeInteger(int nr_max){
         this.nr_max=nr_max;
         numarCurentDeElemente=0;
-        elemente= new int[nr_max];
+        elemente= new Integer[nr_max];
     }
 
     public void afisareElemente(){
@@ -32,7 +32,7 @@ public class ListaDeInt{
     } 
         public void sortareElemente() { 
         //Bubble Sort
-        int[]elemente=this.elemente;
+        Integer[]elemente=this.elemente;
         int n = elemente.length;  
         int temp = 0;  
          for(int i=0; i < n; i++){  
