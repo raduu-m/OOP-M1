@@ -14,7 +14,6 @@ public class TesteListaDeInteger{
         lista.afisareElemente();
 
         lista.sortareElemente();
-        lista.afisareElemente();
     }
     
 }
